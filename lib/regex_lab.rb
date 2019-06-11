@@ -1,9 +1,9 @@
 require 'pry'
 def starts_with_a_vowel?(word)
  if word.scan(/\A[aeiou][a-z]*\A/)
-   true 
+  q = true 
  elsif word.scan(/\A[b-df-hj-np-tv-z][a-z]*\A/)
-   false
+   q = false
  end
  binding.pry
  
